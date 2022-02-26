@@ -2,7 +2,8 @@
 Algorithm:
    -> bfs for shortest paths with some modifications
    -> queue stores [node, [dist, mask]]
-   -> binary num: representing the visited and unvisted nodes
+   -> dist: is the distance travelled from a particular node
+   -> mask is a binary number, representing the visited and unvisted nodes
    -> set-DS keeps track of node and mask which are already visited
    -> if mask is of form 1111....(till n-1) then we return (current distance+1 )
 */
